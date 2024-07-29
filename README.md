@@ -11,7 +11,7 @@
 
 ### User Stories
 - As a user, I want to offer my graphic design skills in exchange for web development lessons, so I can build my own website without spending money on a developer.
-- As a user, , I want to see user ratings and reviews, so I can ensure I'm exchanging services with reliable and skilled individuals.
+- As a user, I want to see user ratings and reviews, so I can ensure I'm exchanging services with reliable and skilled individuals.
 - As a user, I want to participate in community forums and groups, so I can network with other professionals and hobbyists who share my interests.
 - As a user, I want to track the skills I've exchanged and received, so I can have a clear record of my transactions and progress.
 - As a user, I want to set up virtual meetings and workshops, so I can learn and collaborate with others in real-time.
