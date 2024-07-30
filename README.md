@@ -5,8 +5,6 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A web App for people to host meetings and exchange skills and talents.
->
 > SkillEx is an innovative platform that connects people with different skills and talents, allowing them to exchange services without the need for money. Users can offer their expertise in various fields, such as graphic design, language tutoring, coding, or practically anything, and in return, receive help in areas where they need assistance. The app fosters a community of mutual support and learning, making skill acquisition and service access more affordable and collaborative.
 
 ### User Stories
