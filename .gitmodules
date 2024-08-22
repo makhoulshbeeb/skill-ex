@@ -1,0 +1,3 @@
+[submodule "skill-ex-front"]
+	path = skill-ex-front
+	url = https://github.com/makhoulshbeeb/skill-ex-front.git
