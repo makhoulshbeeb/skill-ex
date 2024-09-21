@@ -265,10 +265,13 @@ const messageSchema = new mongoose.Schema(
 | ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Home screen  | Home Screen 2 | Search Screen |
+| ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | User screen  | Chat Screen | Video Screen |
+| ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
+| ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 
