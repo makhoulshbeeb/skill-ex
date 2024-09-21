@@ -261,8 +261,9 @@ const messageSchema = new mongoose.Schema(
 
 
 ### User Screens (Web)
-| Login Screen  | Sign up Screen |  Sign up Screen 2|
+|   |   |   |
 | ---| ---| ---|
+| Login Screen  | Sign up Screen |  Sign up Screen 2|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Home screen  | Home Screen 2 | Search Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
