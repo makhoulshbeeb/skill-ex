@@ -52,8 +52,206 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+## Users Schema:
 
+```js
+const userSchema = new mongoose.Schema(
+    {
+        displayName: {
+            type: String,
+            required: true,
+        },
+        username: {
+            type: String,
+            required: true,
+            unique: true,
+            validate: {
+                validator: (username) => { return /^[a-zA-Z0-9_]+$/.test(username) },
+                message: "Please provide a valid username",
+            },
+            minlength: 4,
+            maxlength: 24,
+        },
+        email: {
+            type: String,
+            required: true,
+            unique: true,
+            lowercase: true,
+            validate: {
+                validator: (email) => validator.isEmail(email),
+                message: "Please provide a valid email",
+            },
+        },
+        password: {
+            type: String,
+            required: true,
+            minlength: 8,
+        },
+        gender: {
+            type: String,
+            required: true,
+            enum: ["male", "female", "other"],
+        },
+        picture: {
+            type: String,
+            default: "",
+        },
+        bio: {
+            type: String,
+            default: "",
+        },
+        avgRating: {
+            type: Number,
+            min: 0,
+            max: 5,
+            default: 0
+        },
+        reviews: {
+            type: [
+                {
+                    type: mongoose.Schema.Types.ObjectId,
+                    ref: "Review",
+                },
+            ],
+            default: [],
+        },
+        teach: {
+            type: [
+                {
+                    category: {
+                        type: mongoose.Schema.Types.ObjectId,
+                        ref: "Category"
+                    },
+                    endorsements: [{
+                        type: mongoose.Schema.Types.ObjectId,
+                        ref: "User"
+                    }],
+                    _id: false,
+                },
+
+            ],
+            default: [],
+        },
+        learn: {
+            type: [
+                {
+                    category: {
+                        type: mongoose.Schema.Types.ObjectId,
+                        ref: "Category"
+                    },
+                    _id: false,
+                }
+            ],
+            default: [],
+        },
+        role: {
+            type: String,
+            enum: ['User', 'Admin'],
+            default: 'User'
+        }
+    },
+    { timestamps: true }
+);
+```
+
+## Reviews Schema:
+
+```js
+const reviewSchema = new mongoose.Schema(
+    {
+        reviewerId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User",
+            required: true,
+        },
+        receiverId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User",
+            required: true,
+        },
+        feedback: {
+            type: String,
+            required: true,
+        },
+        rating: {
+            type: Number,
+            required: true,
+            min: 1,
+            max: 5,
+        }
+    },
+    { timestamps: true }
+);
+reviewSchema.index({ reviewerId: 1, receiverId: 1 }, { unique: true })
+```
+
+## Categories Schema:
+
+```js
+const categorySchema = new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: true,
+            unique: true,
+        },
+        picture: {
+            type: String,
+            default: "https://e7.pngegg.com/pngimages/75/866/png-clipart-category-management-organization-retail-management-miscellaneous-text-thumbnail.png",
+        },
+    },
+    { timestamps: true }
+);
+```
+
+## Chats Schema
+
+```js
+const chatSchema = new mongoose.Schema(
+    {
+        participants: {
+            type: [
+                {
+                    type: mongoose.Schema.Types.ObjectId,
+                    ref: "User",
+                },
+            ],
+        },
+        messages: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "Message",
+                default: [],
+            },
+        ],
+    },
+    { timestamps: true }
+);
+```
+
+## Messages Schema
+
+```js
+const messageSchema = new mongoose.Schema(
+    {
+        senderId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User",
+            required: true,
+        },
+        receiverId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "User",
+            required: true,
+        },
+        message: {
+            type: String,
+            required: true,
+        },
+    },
+    { timestamps: true }
+);
+```
 
 <br><br>
 
@@ -63,10 +261,14 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 
 
 ### User Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+| Login Screen  | Sign up Screen |  Sign up Screen 2|
 | ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
+| Home screen  | Home Screen 2 | Search Screen |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| User screen  | Chat Screen | Video Screen |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 
