@@ -20,11 +20,15 @@
 
 ###  SkillEx is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+This project is built using the MERN stack (MongoDB, Express, React, Node.js) and integrates real-time features with Socket.io and WebRTC for video conferencing.
+
+-MERN Stack: This website is developed using the MERN technology stack, which ensures a seamless development process by using JavaScript for both the front-end and back-end. React powers the dynamic user interface, Node.js and Express handle the server-side logic, and MongoDB provides efficient and flexible database management.
+
+-Real-time Communication: The project utilizes Socket.io for real-time, bidirectional communication between clients and the server. This enables instant messaging, live notifications, and seamless updates across all connected users.
+
+-In-App Video Conferencing: The website implements WebRTC for real-time peer-to-peer video conferencing. This allows users to initiate and join video calls directly within the platform, providing high-quality video and audio without the need for external plugins or applications.
+
+-Persistent Storage: For data persistence, the project uses MongoDB as the NoSQL database. MongoDB allows for flexible schema design, making it ideal for dynamic and evolving data requirements, such as storing user profiles, reviews and chat history.
 
 <br><br>
 <!-- UI UX -->
@@ -33,7 +37,7 @@
 
 > We designed SkillEx using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/KEV6m8171V7IqSmB67XPfS/SkillEx?node-id=1-4&t=7Hl4STyg6LmidYRF-1)
 
 
 ### Mockups
@@ -58,12 +62,13 @@
 <img src="./readme/title6.svg"/>
 
 
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+### User Screens (Web)
+| Login screen  | Register screen |  Landing screen |
+| ---| ---| ---|
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Home screen  | Menu Screen | Order Screen |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+
 
 ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
