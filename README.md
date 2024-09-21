@@ -22,13 +22,13 @@
 
 This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/), [Express](https://expressjs.com/), [React](https://react.dev/), [Node.js](https://nodejs.org/en)) and integrates real-time features with [Socket.io](https://socket.io/) and [WebRTC](https://webrtc.org/) for video conferencing.
 
--MERN Stack: This website is developed using the MERN technology stack, which ensures a seamless development process by using JavaScript for both the front-end and back-end. React powers the dynamic user interface, Node.js and Express handle the server-side logic, and MongoDB provides efficient and flexible database management.
+- MERN Stack: This website is developed using the MERN technology stack, which ensures a seamless development process by using JavaScript for both the front-end and back-end. React powers the dynamic user interface, Node.js and Express handle the server-side logic, and MongoDB provides efficient and flexible database management.
 
--Real-time Communication: The project utilizes Socket.io for real-time, bidirectional communication between clients and the server. This enables instant messaging, live notifications, and seamless updates across all connected users.
+- Real-time Communication: The project utilizes Socket.io for real-time, bidirectional communication between clients and the server. This enables instant messaging, live notifications, and seamless updates across all connected users.
 
--In-App Video Conferencing: The website implements WebRTC for real-time peer-to-peer video conferencing. This allows users to initiate and join video calls directly within the platform, providing high-quality video and audio without the need for external plugins or applications.
+- In-App Video Conferencing: The website implements WebRTC for real-time peer-to-peer video conferencing. This allows users to initiate and join video calls directly within the platform, providing high-quality video and audio without the need for external plugins or applications.
 
--Persistent Storage: For data persistence, the project uses MongoDB as the NoSQL database. MongoDB allows for flexible schema design, making it ideal for dynamic and evolving data requirements, such as storing user profiles, reviews and chat history.
+- Persistent Storage: For data persistence, the project uses MongoDB as the NoSQL database. MongoDB allows for flexible schema design, making it ideal for dynamic and evolving data requirements, such as storing user profiles, reviews and chat history.
 
 <br><br>
 <!-- UI UX -->
