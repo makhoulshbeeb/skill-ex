@@ -20,7 +20,7 @@
 
 ###  SkillEx is built using the following technologies:
 
-This project is built using the MERN stack (MongoDB, Express, React, Node.js) and integrates real-time features with Socket.io and WebRTC for video conferencing.
+This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/), [Express](https://expressjs.com/), [React](https://react.dev/), [Node.js](https://nodejs.org/en)) and integrates real-time features with [Socket.io](https://socket.io/) and [WebRTC](https://webrtc.org/) for video conferencing.
 
 -MERN Stack: This website is developed using the MERN technology stack, which ensures a seamless development process by using JavaScript for both the front-end and back-end. React powers the dynamic user interface, Node.js and Express handle the server-side logic, and MongoDB provides efficient and flexible database management.
 
