@@ -52,7 +52,7 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-## Users Schema:
+#### Users Schema:
 
 ```js
 const userSchema = new mongoose.Schema(
@@ -154,7 +154,7 @@ const userSchema = new mongoose.Schema(
 );
 ```
 
-## Reviews Schema:
+#### Reviews Schema:
 
 ```js
 const reviewSchema = new mongoose.Schema(
@@ -185,7 +185,7 @@ const reviewSchema = new mongoose.Schema(
 reviewSchema.index({ reviewerId: 1, receiverId: 1 }, { unique: true })
 ```
 
-## Categories Schema:
+#### Categories Schema:
 
 ```js
 const categorySchema = new mongoose.Schema(
@@ -204,7 +204,7 @@ const categorySchema = new mongoose.Schema(
 );
 ```
 
-## Chats Schema
+#### Chats Schema
 
 ```js
 const chatSchema = new mongoose.Schema(
@@ -229,7 +229,7 @@ const chatSchema = new mongoose.Schema(
 );
 ```
 
-## Messages Schema
+#### Messages Schema
 
 ```js
 const messageSchema = new mongoose.Schema(
