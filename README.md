@@ -262,6 +262,7 @@ const messageSchema = new mongoose.Schema(
 
 ### User Screens (Web)
 | Login Screen  | Sign up Screen |  Sign up Screen 2|
+| ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Home screen  | Home Screen 2 | Search Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
@@ -273,6 +274,7 @@ const messageSchema = new mongoose.Schema(
 
 ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
+| ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Home screen  | Menu Screen | Order Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
