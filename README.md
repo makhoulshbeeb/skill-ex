@@ -269,14 +269,16 @@ const messageSchema = new mongoose.Schema(
 |   |   |   |
 | ---| ---| ---|
 | Login Screen  | Sign up Screen |  Home screen  |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Login](./readme/demo/LoginPage.gif) | ![Sign up](./readme/demo/SignupPage.gif) | ![Home](./readme/demo/HomePage.gif) |
 | User screen  | Chat Screen | Video Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![User](./readme/demo/UserPage.gif) | ![Chat](./readme/demo/ChatPage.gif) | ![Video](./readme/demo/VideoPage.gif) |
+| Profile Screen |
+| ![Profile](./readme/demo/ProfilePage.gif) |
 
 ### Admin Screens (Web)
-| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Admin Categories screen  | Admin Users Screen |
+| ---| ---|
+| ![Admin Categories](./readme/demo/AdminCategoriesPage.gif) | ![Admin Users](./readme/demo/AdminUsersPage.gif) |
 
 <br><br>
 
