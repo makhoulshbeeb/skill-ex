@@ -324,20 +324,16 @@ const messageSchema = new mongoose.Schema(
     ```sh
    git clone https://github.com/makhoulshbeeb/skill-ex
    ```
-2. Install NPM packages on both skill-ex-back and skill-ex-front/SkillEx
+2. Install NPM packages and run backend
    ```sh
    cd skill-ex-back
    npm install
-   cd ..
-   cd skill-ex-front/SkillEx
-   npm install
-   ```
-3. Run both skill-ex-back and skill-ex-front/SkillEx
-   ```sh
-   cd skill-ex-back
    npm run dev
-   cd ..
+   ```
+3. Install NPM packages and run frontend
+   ```sh
    cd skill-ex-front/SkillEx
+   npm install
    npm run dev
    ```
 
