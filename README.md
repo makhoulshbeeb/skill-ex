@@ -45,11 +45,11 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 |   |   |   |
 | ---| ---| ---|
 | Login Screen  | Sign up Screen |  Home screen  |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Login](./readme/mockups/Login.png) | ![Sign up](./readme/mockups/Signup.png) | ![Home](./readme/mockups/Home.png) |
 | User screen  | Chat Screen | Video Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![User](./readme/mockups/User.png) | ![Chat](./readme/mockups/Chat.png) | ![Video](./readme/mockups/Video.png) |
 | Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Admin Categories](./readme/mockups/AdminCategories.png) | ![Admin Users 1](./readme/mockups/AdminUsers1.png) | ![Admin Users 2](./readme/mockups/AdminUsers2.png) |
 
 <br><br>
 
@@ -331,7 +331,7 @@ const messageSchema = new mongoose.Schema(
    npm install
    npm run dev
    ```
-   
+
 3. Follow the .env.example files on each submodules to set up your environment variables
 
 4. Install NPM packages and run frontend
