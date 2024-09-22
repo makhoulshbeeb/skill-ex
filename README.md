@@ -11,6 +11,7 @@
 - As a user, I want to learn new skills without having to hire expensive tutors.
 - As a user, I want to see user ratings and reviews, so I can ensure I'm exchanging services with reliable and skilled individuals.
 - As a user, I want to set up virtual meetings and workshops, so I can learn and collaborate with others in real-time.
+
 - As an admin, I want to be able to monitor and delete inappropriate users and reviews.
 - As an admin, I want to be able to add, update and delete skill categories.
 
@@ -41,9 +42,14 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
+|   |   |   |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Login Screen  | Sign up Screen |  Home screen  |
+| ![Login](./readme/mockups/Login.png) | ![Sign up](./readme/mockups/Signup.png) | ![Home](./readme/mockups/Home.png) |
+| User screen  | Chat Screen | Video Screen |
+| ![User](./readme/mockups/User.png) | ![Chat](./readme/mockups/Chat.png) | ![Video](./readme/mockups/Video.png) |
+| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
+| ![Admin Categories](./readme/mockups/AdminCategories.png) | ![Admin Users 1](./readme/mockups/AdminUsers1.png) | ![Admin Users 2](./readme/mockups/AdminUsers2.png) |
 
 <br><br>
 
@@ -263,41 +269,36 @@ const messageSchema = new mongoose.Schema(
 ### User Screens (Web)
 |   |   |   |
 | ---| ---| ---|
-| Login Screen  | Sign up Screen |  Sign up Screen 2|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Home Screen 2 | Search Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Login Screen  | Sign up Screen |  Home screen  |
+| ![Login](./readme/demo/LoginPage.gif) | ![Sign up](./readme/demo/SignupPage.gif) | ![Home](./readme/demo/HomePage.gif) |
 | User screen  | Chat Screen | Video Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-
+| ![User](./readme/demo/UserPage.gif) | ![Chat](./readme/demo/ChatPage.gif) | ![Video](./readme/demo/VideoPage.gif) |
+| Profile Screen |
+| ![Profile](./readme/demo/ProfilePage.gif) |
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Admin Categories screen  | Admin Users Screen |
+| ---| ---|
+| ![Admin Categories](./readme/demo/AdminCategoriesPage.gif) | ![Admin Users](./readme/demo/AdminUsersPage.gif) |
 
 <br><br>
 
 
 <!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+<!-- <img src="./readme/title7.svg"/>
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
 
-<br><br>
+<br><br> -->
 
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+###  Efficient Deployment: Unleashing the Potential with AWS Integration:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project leverages AWS EC2 deployment strategies to seamlessly integrate and deploy natural request processing and handling. With a focus on scalability, reliability, and performance, we ensure that the flow of information is dynamic and proactive to reflect a seemless user experience.
 
 <br><br>
 
@@ -308,6 +309,8 @@ const messageSchema = new mongoose.Schema(
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
 
+- In order to ensure the effeciency and reliability of all backend processes, api calls have been mapped into a [Postman project](https://skill-ex.postman.co/workspace/skill-ex-Workspace~3b83ee7d-9566-4af3-8f43-268a4f049d16/collection/36926328-d6f09023-f6a0-4bf3-930d-0cf640b9abaa?action=share&creator=36926328) where they underwent rigorous and frequent testing.
+
 <br><br>
 
 
@@ -316,28 +319,25 @@ const messageSchema = new mongoose.Schema(
 
 > To set up SkillEx locally, follow these steps:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
     ```sh
    git clone https://github.com/makhoulshbeeb/skill-ex
    ```
-2. Install NPM packages on both skill-ex-back and skill-ex-front/SkillEx
+2. Install NPM packages and run backend
    ```sh
+   cd skill-ex-back
    npm install
+   npm run dev
    ```
-3. Run both on skill-ex-back and skill-ex-front/SkillEx
+
+3. Follow the .env.example files on each submodules to set up your environment variables
+
+4. Install NPM packages and run frontend
    ```sh
+   cd skill-ex-front/SkillEx
+   npm install
    npm run dev
    ```
 
