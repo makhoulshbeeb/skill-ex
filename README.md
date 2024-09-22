@@ -11,6 +11,7 @@
 - As a user, I want to learn new skills without having to hire expensive tutors.
 - As a user, I want to see user ratings and reviews, so I can ensure I'm exchanging services with reliable and skilled individuals.
 - As a user, I want to set up virtual meetings and workshops, so I can learn and collaborate with others in real-time.
+
 - As an admin, I want to be able to monitor and delete inappropriate users and reviews.
 - As an admin, I want to be able to add, update and delete skill categories.
 
