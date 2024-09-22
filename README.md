@@ -41,8 +41,13 @@ This project is built using the MERN stack ([MongoDB](https://www.mongodb.com/),
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
+|   |   |   |
 | ---| ---| ---|
+| Login Screen  | Sign up Screen |  Home screen  |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| User screen  | Chat Screen | Video Screen |
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
@@ -309,17 +314,7 @@ const messageSchema = new mongoose.Schema(
 
 > To set up SkillEx locally, follow these steps:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
-
-To run SkillEx locally do as follows:
 
 1. Clone the repo
     ```sh
