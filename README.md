@@ -331,7 +331,9 @@ const messageSchema = new mongoose.Schema(
    npm install
    npm run dev
    ```
-3. Follow the .env.example files on each of submodules to set up your environment variables
+   
+3. Follow the .env.example files on each submodules to set up your environment variables
+
 4. Install NPM packages and run frontend
    ```sh
    cd skill-ex-front/SkillEx
