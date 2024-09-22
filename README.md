@@ -308,6 +308,8 @@ const messageSchema = new mongoose.Schema(
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
 
+- In order to ensure the effeciency and reliability of all backend processes, api calls have been mapped into a [Postman project](https://skill-ex.postman.co/workspace/skill-ex-Workspace~3b83ee7d-9566-4af3-8f43-268a4f049d16/collection/36926328-d6f09023-f6a0-4bf3-930d-0cf640b9abaa?action=share&creator=36926328) where they underwent rigorous and frequent testing.
+
 <br><br>
 
 
