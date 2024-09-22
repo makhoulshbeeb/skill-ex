@@ -295,9 +295,9 @@ const messageSchema = new mongoose.Schema(
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+###  Efficient Deployment: Unleashing the Potential with AWS Integration:
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project leverages AWS EC2 deployment strategies to seamlessly integrate and deploy natural request processing and handling. With a focus on scalability, reliability, and performance, we ensure that the flow of information is dynamic and proactive to reflect a seemless user experience.
 
 <br><br>
 
