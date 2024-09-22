@@ -263,34 +263,27 @@ const messageSchema = new mongoose.Schema(
 ### User Screens (Web)
 |   |   |   |
 | ---| ---| ---|
-| Login Screen  | Sign up Screen |  Sign up Screen 2|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Home Screen 2 | Search Screen |
+| Login Screen  | Sign up Screen |  Home screen  |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | User screen  | Chat Screen | Video Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+| Admin Categories screen  | Admin Users Screen | Admin Users Screen 2 |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
 
 
 <!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+<!-- <img src="./readme/title7.svg"/>
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
 - This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
 
-<br><br>
+<br><br> -->
 
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
@@ -326,7 +319,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+To run SkillEx locally do as follows:
 
 1. Clone the repo
     ```sh
@@ -334,10 +327,18 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 2. Install NPM packages on both skill-ex-back and skill-ex-front/SkillEx
    ```sh
+   cd skill-ex-back
+   npm install
+   cd ..
+   cd skill-ex-front/SkillEx
    npm install
    ```
-3. Run both on skill-ex-back and skill-ex-front/SkillEx
+3. Run both skill-ex-back and skill-ex-front/SkillEx
    ```sh
+   cd skill-ex-back
+   npm run dev
+   cd ..
+   cd skill-ex-front/SkillEx
    npm run dev
    ```
 
