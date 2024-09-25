@@ -329,15 +329,15 @@ const messageSchema = new mongoose.Schema(
     ```sh
    git clone https://github.com/makhoulshbeeb/skill-ex
    ```
-2. Install NPM packages and run backend
+
+2. Follow the .env.example files on each submodules to set up your environment variables
+
+3. Install NPM packages and run backend
    ```sh
    cd skill-ex-back
    npm install
    npm run dev
    ```
-
-3. Follow the .env.example files on each submodules to set up your environment variables
-
 4. Install NPM packages and run frontend
    ```sh
    cd skill-ex-front/SkillEx
