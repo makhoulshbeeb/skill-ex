@@ -300,6 +300,10 @@ const messageSchema = new mongoose.Schema(
 
 - This project leverages AWS EC2 deployment strategies to seamlessly integrate and deploy natural request processing and handling. With a focus on scalability, reliability, and performance, we ensure that the flow of information is dynamic and proactive to reflect a seemless user experience.
 
+<img src="./readme/AWS/EC2_Connection.png"/>
+
+<img src="./readme/AWS/EC2_Test.png"/>
+
 <br><br>
 
 <!-- Unit Testing -->
